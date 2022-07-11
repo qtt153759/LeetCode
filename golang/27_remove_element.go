@@ -1,3 +1,4 @@
+package main
 func removeElement(nums []int, val int) int {
 	i := 0
 	for _, v := range nums {

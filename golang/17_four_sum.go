@@ -1,3 +1,7 @@
+package main
+
+import "sort"
+
 //four sum thi chi con cach nang bac + three sum thoi
 func fourSum(nums []int, target int) [][]int {
 	if len(nums) <=3 {
