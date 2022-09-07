@@ -26,3 +26,4 @@ if __name__ == "__main__":
     print(fruits ^ veggies)
     print(fruits - veggies)
     print(bin(0b0001 ^ 0b1011))
+    print(0b11111111111111111111)
