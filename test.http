@@ -1,0 +1,9 @@
+POST https://qldt.hust.edu.vn/soicteducationstudent/data
+accept: */*
+accept-language: vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5
+content-type: text/x-gwt-rpc; charset=UTF-8
+x-gwt-module-base: https://qldt.hust.edu.vn/soicteducationstudent/
+x-gwt-permutation: 657CC2B6DE59491D5D25A1DD806A190B
+
+7|0|10|https://qldt.hust.edu.vn/soicteducationstudent/|24BB66A05737A1AE4ACF715344A52298|com.soict.edu.core.client.DataService|searchClasses|java.lang.String/2004016611|java.lang.Long/4227064769|java.util.List|20211|java.util.Arrays$ArrayList/2507071751|MI1131|1|2|3|4|4|5|6|6|7|8|6|WJnseAAAB|6|P__________|9|1|5|10|
+
