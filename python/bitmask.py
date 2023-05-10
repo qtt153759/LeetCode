@@ -26,4 +26,5 @@ if __name__ == "__main__":
     print(fruits ^ veggies)
     print(fruits - veggies)
     print(bin(0b0001 ^ 0b1011))
-    print(0b11111111111111111111)
+    print((0b1011 >> 1))
+    print(bin(set_bit(0b1011, 2)))
