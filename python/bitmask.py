@@ -51,7 +51,24 @@ def check_exact_one_bit_set(bitmask):
 def module(dividend,divisor):
     return dividend&((1 << divisor) - 1)
 
- 
+def swap(a,b): #without using temp variable
+    a^=b
+    b^=a
+    a^=b
+    return a,b
+
+def sign(a):
+    return (a>>31)&1
+
+def flip(a):
+    return a^1
+def find_max(a,b): #without operator
+    c=a-b
+    sa,sb,sc=sign(a),sign(b),sign(c)
+    k=flip(sc)+sb*sc
+    return a*k+b*flip(k)
+
+
 if __name__ == "__main__":
     fruits = {"apple", "banana", "tomato"}
     veggies = {"eggplant", "tomato"}
@@ -67,3 +84,5 @@ if __name__ == "__main__":
     print("ok",sys.getsizeof(0b11101000))
     print(module(13,2))
     abc={"Hồ Gươm":["yes","no"], 'Hồ Tây':["yes","no"],'Tháp Rùa':["yes","no"],"Cầu Thê Húc":["yes","no"],"Bưu Điện":["yes","no"],"Vườn Hoa":["yes","no"],"Chùa Trấn Quốc":["yes","no"],"Đền Quán Thánh":["yes","no"],"Khách Sạn":["yes","no"],"Công Viên Nước":["yes","no"]}
+    print(find_max(-6,5))
+    print(bin(-1<<(2)))
