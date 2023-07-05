@@ -85,4 +85,4 @@ if __name__ == "__main__":
     print(module(13,2))
     abc={"Hồ Gươm":["yes","no"], 'Hồ Tây':["yes","no"],'Tháp Rùa':["yes","no"],"Cầu Thê Húc":["yes","no"],"Bưu Điện":["yes","no"],"Vườn Hoa":["yes","no"],"Chùa Trấn Quốc":["yes","no"],"Đền Quán Thánh":["yes","no"],"Khách Sạn":["yes","no"],"Công Viên Nước":["yes","no"]}
     print(find_max(-6,5))
-    print(bin(-1<<(2)))
+    print(bin(1/10))
